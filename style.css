@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #000080;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    color: #000080;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    font-family: comic sense;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 18px;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    color: #000080;
+    font-size: 19px;
+    
+}
+
+
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    font-family: comic sense;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
+.side {
+    float: right;
+  width: 300px;
+  margin-right: 0px;
+  margin-left: -10px;
+  background: #E6E6FA;
+  text-align: left;
+}
+
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: #E6E6FA;
+    padding: 10px;
+    padding-left: 10%;
+}
+
+.right {
+  float: left;
+  width: 300px;
+  margin-left: -300px;
+  background: #E6E6FA;
+  text-align: left;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+.slider {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 400px;
+    width: 2400px;
+    background: #E6E6FA;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.comment {
+	text-align: left;
+	margin-left: 10%;
+	
+}
